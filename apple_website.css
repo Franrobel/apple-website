@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: rgba(0,0,0,0.92);
+  width: 100%;
+  height: 7%;
+  margin: 0;
+}
+
+.unit-image {
+  background-color: white;
+  background-image: url("../apple/iphone_12_updated__jepm2xpxncuy_small_2x.jpeg");
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
