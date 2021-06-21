@@ -8,6 +8,10 @@ header {
   height: 7%;
   margin: 0;
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
 .covid-ribbon-copy { 
   display: inline-block;
   line-height: 150%;
@@ -39,7 +43,6 @@ header {
 .iphone-12Pro {
   padding-top: 6em;
   height: 420px;
-  margin-bottom: -300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +53,6 @@ div.iphone-12Pro {
   color: white;
 }
 .unit-image-pro {
-  
   width: 1000px;
   height: 450px;
   background-image: url("./iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpeg");
@@ -59,22 +61,18 @@ div.iphone-12Pro {
   background-repeat: no-repeat;
 }
 .ipadpro {
-  position: relative;
-    top: 310;
   padding-top: 6em;
   height: 450px;
-  margin-bottom: -300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: black;
-  
 }
+
 div.ipadpro {
   color: white;
 }
-.unit-image-ipad {
-  
+.unit-image-ipad {  
   width: 1000px;
   height: 450px;
   background-image: url("./hero_ipad_pro__gl982dtu49im_large_2x.jpeg");
@@ -82,14 +80,16 @@ div.ipadpro {
   background-position: -500 -160;
   background-repeat: no-repeat;
 }
-.imac-watch{
-  display: grid;
-  grid-template-rows: 100px 100px;
 
+.imac-watch{
+  display: flex;
+  flex-direction: row;
+  
 }
+
 .iMac {
   box-sizing: content-box;
-width: 100%;
+  width: 100%;
 }
 .unit-image-iMac {
   background-image: url("./promo_imac__crg641tip4q6_large_2x.jpeg");
@@ -98,7 +98,7 @@ width: 100%;
 }
 .iwatch {
   box-sizing: content-box;
-width: 100%;
+  width: 100%;
 }
 .unit-image-iWatch {
   background-image: url("./promo_watch_series_6_lte__f8lrasjnry2y_large.jpeg");
