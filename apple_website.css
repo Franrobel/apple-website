@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 header {
   background-color: rgba(0,0,0,0.92);
@@ -7,13 +8,109 @@ header {
   height: 7%;
   margin: 0;
 }
+.covid-ribbon-copy { 
+  display: inline-block;
+  line-height: 150%;
+  padding: 5px 0;
+  margin: 1% 10% 1% 10%; 
+  font-size: 14px;
+   text-align: center;
+}
+
+.covid-ribbon {
+  background-color: #f5f5f7;
+}
+
 
 .unit-image {
-  background-color: white;
-  background-image: url("../apple/iphone_12_updated__jepm2xpxncuy_small_2x.jpeg");
+  width: 1000px;
+  height: 360px;
+  background-image: url("./iphone_12_updated__jepm2xpxncuy_mediumtall_2x.jpeg");
+  background-size: 100%;
+  background-position: center -305;
+  background-repeat: no-repeat;
 }
-.first {
+.iphone-12 {
+  padding-top: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.iphone-12Pro {
+  padding-top: 6em;
+  height: 420px;
+  margin-bottom: -300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  
+}
+div.iphone-12Pro {
+  color: white;
+}
+.unit-image-pro {
+  
+  width: 1000px;
+  height: 450px;
+  background-image: url("./iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpeg");
+  background-size: 2000px;
+  background-position: -500 -180;
+  background-repeat: no-repeat;
+}
+.ipadpro {
+  position: relative;
+    top: 310;
+  padding-top: 6em;
+  height: 450px;
+  margin-bottom: -300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  
+}
+div.ipadpro {
+  color: white;
+}
+.unit-image-ipad {
+  
+  width: 1000px;
+  height: 450px;
+  background-image: url("./hero_ipad_pro__gl982dtu49im_large_2x.jpeg");
+  background-size: 2000px;
+  background-position: -500 -160;
+  background-repeat: no-repeat;
+}
+.imac-watch{
+  display: grid;
+  grid-template-rows: 100px 100px;
+
+}
+.iMac {
+  box-sizing: content-box;
+width: 100%;
+}
+.unit-image-iMac {
+  background-image: url("./promo_imac__crg641tip4q6_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.iwatch {
+  box-sizing: content-box;
+width: 100%;
+}
+.unit-image-iWatch {
+  background-image: url("./promo_watch_series_6_lte__f8lrasjnry2y_large.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 735px) { 
+  .unit-image {
+  width: 1000px;
+  height: 450px;
+  background-color: white;
+  background-image: url("./iphone_12.jpeg");
+  background-position: center -350;
+}
 }
