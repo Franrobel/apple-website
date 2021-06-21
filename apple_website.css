@@ -81,29 +81,95 @@ div.ipadpro {
   background-repeat: no-repeat;
 }
 
-.imac-watch{
+.doble-cajas{
   display: flex;
   flex-direction: row;
   
 }
-
-.iMac {
-  box-sizing: content-box;
-  width: 100%;
+.doble-cajas {
+  margin: 10px 10px 10px 10px;
 }
-.unit-image-iMac {
+.iMac {
+ display: flex;
+ flex-direction: column;
+  text-align: center;
+  width: 1262px;
+  height: 580px;
   background-image: url("./promo_imac__crg641tip4q6_large_2x.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1262px 580px;
+  background-position: center;
+  margin-right: 7.5px;
 }
+
 .iwatch {
-  box-sizing: content-box;
-  width: 100%;
-}
-.unit-image-iWatch {
+  color: white;
+  display: flex;
+ flex-direction: column;
+  text-align: center;
+  width: 1262px;
+  height: 580px;
   background-image: url("./promo_watch_series_6_lte__f8lrasjnry2y_large.jpeg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1262px 580px;
+  background-position: center;
+  margin-left: 7.5px;
+}
+  
+.WWDC21 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1262px;
+  height: 580px;
+  background-image: url("./promo_wwdc21__p6pprzl4sjey_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1262px 580px;
+  background-position: center;
+  color: white;
+  text-align: center;
+  margin-right: 7.5px;
+}
+.WWDC21 h2 {
+  text-shadow: 2px 2px violet;
+}
+.TV4K {
+  display: flex;
+ flex-direction: column;
+  text-align: center;
+  width: 1262px;
+  height: 580px;
+  background-image: url("./promo_tile_tv4k__cbz6fpnn6kz6_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1262px 580px;
+  background-position: center;
+  margin-left: 7.5px;
+}
+.Music {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1262px;
+  height: 580px;
+  background-image: url("./promo_spatial_audio__deu7d4c77yc2_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1262px 580px;
+  background-position: center;
+  color: white;
+  margin-right: 7.5px;
+}
+.Themorningshow {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 1262px;
+  height: 580px;
+  background-image: url("./promo_morning_show__yubzhh5l602u_large_2x.jpeg");
+  background-repeat: no-repeat;
+  background-size: 1262px 580px;
+  background-position: center;
+  color: white;
+  margin-left: 7.5px;
 }
 @media (max-width: 735px) { 
   .unit-image {
