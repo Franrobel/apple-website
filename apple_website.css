@@ -7,11 +7,17 @@ header {
   background: rgba(0,0,0,0.8);
   width: 100%;
   height: 48px;
-  
+  position: fixed;
+  top: 0;
+}
+ul a {
+  color: white;
+  text-decoration: none;
 }
 main {
   display: flex;
   flex-direction: column;
+  margin-top: 48px;
 }
 .nav-bar {
   display: flex;
@@ -20,6 +26,7 @@ main {
     height: 100%;
     margin: 0 200 0 200;
     padding-right: 40px;
+    list-style-type: none;
 }
 .manzananavbar {
   background-image: url("./imagen-header/globalnav_apple_image__cxwwnrj0urau_large.svg");
@@ -147,6 +154,7 @@ div.iphone-12Pro {
 .iphone-12Prolinks a {
   text-decoration: none;
 }
+
 .unit-image-pro {
   width: 1000px;
   height: 450px;
@@ -156,17 +164,16 @@ div.iphone-12Pro {
   background-repeat: no-repeat;
 }
 .ipadpro {
+  margin-top: 10px;
   padding-top: 6em;
   height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: black;
-}
-
-div.ipadpro {
   color: white;
 }
+  
 .unit-image-ipad {  
   width: 1000px;
   height: 450px;
@@ -179,90 +186,50 @@ div.ipadpro {
 .doble-cajas{
   display: flex;
   flex-direction: row;
-  
-}
-.doble-cajas {
   margin: 10px 10px 10px 10px;
 }
-.iMac {
- display: flex;
- flex-direction: column;
+.mini-caja {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   width: 1262px;
   height: 580px;
-  background-image: url("./promo_imac__crg641tip4q6_large_2x.jpeg");
   background-repeat: no-repeat;
   background-size: 1262px 580px;
   background-position: center;
+  margin: 0 0 0 0;
+  
+}
+.iMac {
+  background-image: url("./promo_imac__crg641tip4q6_large_2x.jpeg");
   margin-right: 7.5px;
 }
 
 .iwatch {
-  color: white;
-  display: flex;
- flex-direction: column;
-  text-align: center;
-  width: 1262px;
-  height: 580px;
   background-image: url("./promo_watch_series_6_lte__f8lrasjnry2y_large.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  background-position: center;
+  color: white;
   margin-left: 7.5px;
 }
   
 .WWDC21 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1262px;
-  height: 580px;
   background-image: url("./promo_wwdc21__p6pprzl4sjey_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  background-position: center;
-  color: white;
-  text-align: center;
+  justify-content: center;
   margin-right: 7.5px;
 }
 .WWDC21 h2 {
   text-shadow: 2px 2px violet;
 }
 .TV4K {
-  display: flex;
- flex-direction: column;
-  text-align: center;
-  width: 1262px;
-  height: 580px;
   background-image: url("./promo_tile_tv4k__cbz6fpnn6kz6_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  background-position: center;
   margin-left: 7.5px;
 }
 .Music {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 1262px;
-  height: 580px;
   background-image: url("./promo_spatial_audio__deu7d4c77yc2_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  background-position: center;
   color: white;
   margin-right: 7.5px;
 }
 .Themorningshow {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 1262px;
-  height: 580px;
   background-image: url("./promo_morning_show__yubzhh5l602u_large_2x.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1262px 580px;
-  background-position: center;
   color: white;
   margin-left: 7.5px;
 }
@@ -272,9 +239,9 @@ div.ipadpro {
   top: 385px;
   color: #fff;
 }
-.segunda-temporada::after {
+/*.segunda-temporada::after {
   content: ;
-}
+}*/
 @media (max-width: 735px) { 
   .unit-image {
   width: 1000px;
@@ -283,4 +250,26 @@ div.ipadpro {
   background-image: url("./iphone_12.jpeg");
   background-position: center -350;
 }
+  .doble-cajas {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .mini-caja {
+    width: 100%;
+    height: 548px;
+    margin: 5px 5px 5px 5px;
+  }
 }
+@media (max-width: 768px) {
+  .nav-bar-phone
+  padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+}
+  
+ 
