@@ -1,30 +1,60 @@
+
 body {
   margin: 0;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 header {
-  background-color: rgba(0,0,0,0.92);
+  background: rgba(0,0,0,0.8);
   width: 100%;
-  height: 7%;
-  margin: 0;
+  height: 48px;
+  
 }
 main {
   display: flex;
   flex-direction: column;
 }
-.covid-ribbon-copy { 
-  display: inline-block;
-  line-height: 150%;
-  padding: 5px 0;
-  margin: 1% 10% 1% 10%; 
-  font-size: 14px;
-   text-align: center;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    height: 100%;
+    margin: 0 200 0 200;
+    padding-right: 40px;
 }
-
+.manzananavbar {
+  background-image: url("./imagen-header/globalnav_apple_image__cxwwnrj0urau_large.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 44px;
+  height: 20px;
+}
+.lupasearch {
+  background-image: url("./imagen-header/globalnav_search_image__fca9mfoh8a2q_large.svg");
+    background-repeat: no-repeat;
+    background-size: 18px 88px;
+    width: 18px;
+    height: 44px;
+}
+.shopping {
+  background-image: url("./imagen-header/globalnav_bag_image__bmix8075eg4i_large.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 44px;
+}
 .covid-ribbon {
   background-color: #f5f5f7;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  text-align: center;
 }
 
+.covid-ribbon-copy { 
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 0;
+
+}
 
 .unit-image {
   width: 1000px;
@@ -35,11 +65,45 @@ main {
   background-repeat: no-repeat;
 }
 .iphone-12 {
-  padding-top: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 47px;
 }
+.iphone-12 h2 {
+  font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    margin: auto;
+}
+.iphone-12 h3 {
+  font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
+    margin-bottom: 0%;
+  }
+  .iphone-12 p {
+    margin-top: 0.4em;
+    color: #86868b;
+    margin-bottom: 0;
+  }
+.iphone-12links {
+  display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: .65em;
+    
+}
+
+.iphone-12links a {
+  text-decoration: none;
+}
+
 .iphone-12Pro {
   padding-top: 6em;
   height: 420px;
@@ -51,6 +115,37 @@ main {
 }
 div.iphone-12Pro {
   color: white;
+}
+.iphone-12Pro h2 {
+  font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    margin: auto;
+}
+.iphone-12Pro h3 {
+  font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    margin-top: 6px;
+    margin-bottom: 0%;
+}
+.iphone-12Pro p {
+  margin-top: 0.4em;
+    color: #86868b;
+    margin-bottom: 0;
+}
+.iphone-12Prolinks {
+  display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: .65em;
+}
+.iphone-12Prolinks a {
+  text-decoration: none;
 }
 .unit-image-pro {
   width: 1000px;
@@ -170,6 +265,15 @@ div.ipadpro {
   background-position: center;
   color: white;
   margin-left: 7.5px;
+}
+
+.segunda-temporada {
+  position: relative;
+  top: 385px;
+  color: #fff;
+}
+.segunda-temporada::after {
+  content: ;
 }
 @media (max-width: 735px) { 
   .unit-image {
